@@ -12,7 +12,7 @@ endif()
 
 if(NOT DEFINED MBED_CONFIG_INCLUDE)
     include(${MBED_CONFIG_PATH}/mbed_config.cmake)
-    set(MBED_CONFIG_INCLUDE CACHE INTERNAL "")
+    set(MBED_CONFIG_INCLUDE TRUE)
 endif()
 
 include(mbed_set_post_build)
